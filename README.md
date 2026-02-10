@@ -19,6 +19,7 @@ This repository mirrors all commits to Codeberg via GitHub Actions.
   - Value: (private key content)
 
 5. Edit .github/workflows/codeberg.yml:
+  - Move `codeberg.yml` to `workflows/codeberg.yml`
   - Replace <CODEBERG_USER>/<REPO>
   - Replace other configuration necessary for your repository
 
